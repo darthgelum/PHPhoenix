@@ -1,4 +1,4 @@
-[PHPhoenix](http://phphoenix.com)
+[PHPhoenix](http://phpixie.com)
 =======
 
 PHPhoenix is a lightweight PHP MVC framework designed for 
@@ -8,7 +8,7 @@ understanding of what the framework actually does and
 amazing performance.
 
 You can learn it in under 30 minutes using this tutorial:
-[Learn PHPhoenix in 30 minutes](http://phphoenix.com/tutorials/learn-phphoenix-in-30-minutes/).
+[Learn PHPixie in 30 minutes](http://phpixie.com/tutorials/learn-phpixie-in-30-minutes/).
 
 
 What to expect:
@@ -20,7 +20,7 @@ What to expect:
 
 * Super Fast
 
-  PHPhoenix was designed with speed in mind to provide lightning fast performance. [source](http://phphoenix.com/blog/php-framework-benchmark/)
+  PHPhoenix was designed with speed in mind to provide lightning fast performance. [source](http://phpixie.com/blog/php-framework-benchmark/)
 
 * Well documented
 
