@@ -5,14 +5,14 @@ namespace App;
 /**
  * Base controller
  *
- * @property-read \App\Pixie $pixie Pixie dependency container
+ * @property-read \App\Phoenix $phoenix Phoenix dependency container
  */
-class Page extends \PHPixie\Controller {
+class Page extends \PHPhoenix\Controller {
 
 	protected $view;
 
 	public function before() {
-		$this->view = $this->pixie->view('main');
+		$this->view = $this->phoenix->view('main');
 	}
 
 	public function after() {

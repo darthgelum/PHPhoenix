@@ -7,16 +7,16 @@
     "content-hash": "1193f3db5b7a60e633b2e1f96967dac6",
     "packages": [
         {
-            "name": "phpixie/core",
+            "name": "phphoenix/core",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dracony/PHPixie-Core.git",
+                "url": "https://github.com/dracony/PHPhoenix-Core.git",
                 "reference": "52660b51002e53243bda3af6c11151a3232bfd7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dracony/PHPixie-Core/zipball/52660b51002e53243bda3af6c11151a3232bfd7a",
+                "url": "https://api.github.com/repos/dracony/PHPhoenix-Core/zipball/52660b51002e53243bda3af6c11151a3232bfd7a",
                 "reference": "52660b51002e53243bda3af6c11151a3232bfd7a",
                 "shasum": ""
             },
@@ -31,7 +31,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "PHPixie": "classes/"
+                    "PHPhoenix": "classes/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -45,29 +45,29 @@
                     "homepage": "http://dracony.org"
                 }
             ],
-            "description": "PHPixie Framework",
-            "homepage": "http://phpixie.com",
+            "description": "PHPhoenix Framework",
+            "homepage": "http://phphoenix.com",
             "keywords": [
                 "framework"
             ],
             "time": "2015-04-16T11:59:58+00:00"
         },
         {
-            "name": "phpixie/db",
+            "name": "phphoenix/db",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dracony/PHPixie-DB.git",
+                "url": "https://github.com/dracony/PHPhoenix-DB.git",
                 "reference": "e6b46a322234da7cdf7d7d3645c108018cad9ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dracony/PHPixie-DB/zipball/e6b46a322234da7cdf7d7d3645c108018cad9ac6",
+                "url": "https://api.github.com/repos/dracony/PHPhoenix-DB/zipball/e6b46a322234da7cdf7d7d3645c108018cad9ac6",
                 "reference": "e6b46a322234da7cdf7d7d3645c108018cad9ac6",
                 "shasum": ""
             },
             "require": {
-                "phpixie/core": "2.*@dev"
+                "phphoenix/core": "2.*@dev"
             },
             "type": "library",
             "extra": {
@@ -77,7 +77,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "PHPixie": "classes/"
+                    "PHPhoenix": "classes/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -91,8 +91,8 @@
                     "homepage": "http://dracony.org"
                 }
             ],
-            "description": "PHPixie Database library",
-            "homepage": "http://phpixie.com",
+            "description": "PHPhoenix Database library",
+            "homepage": "http://phphoenix.com",
             "keywords": [
                 "database",
                 "mysql",
@@ -102,26 +102,26 @@
             "time": "2014-11-07T09:09:11+00:00"
         },
         {
-            "name": "phpixie/orm",
+            "name": "phphoenix/orm",
             "version": "2.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PHPixie/ORM.git",
+                "url": "https://github.com/PHPhoenix/ORM.git",
                 "reference": "82048e94f41e3fd4483480dc6709937d009ea18e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPixie/ORM/zipball/82048e94f41e3fd4483480dc6709937d009ea18e",
+                "url": "https://api.github.com/repos/PHPhoenix/ORM/zipball/82048e94f41e3fd4483480dc6709937d009ea18e",
                 "reference": "82048e94f41e3fd4483480dc6709937d009ea18e",
                 "shasum": ""
             },
             "require": {
-                "phpixie/db": "2.*@dev"
+                "phphoenix/db": "2.*@dev"
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "PHPixie": "classes/"
+                    "PHPhoenix": "classes/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -135,8 +135,8 @@
                     "homepage": "http://dracony.org"
                 }
             ],
-            "description": "ORM library for PHPixie",
-            "homepage": "http://phpixie.com",
+            "description": "ORM library for PHPhoenix",
+            "homepage": "http://phphoenix.com",
             "keywords": [
                 "database",
                 "orm"
@@ -148,9 +148,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "phpixie/core": 20,
-        "phpixie/db": 20,
-        "phpixie/orm": 20
+        "phphoenix/core": 20,
+        "phphoenix/db": 20,
+        "phphoenix/orm": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

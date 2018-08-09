@@ -1,14 +1,14 @@
-[PHPixie](http://phpixie.com)
+[PHPhoenix](http://phphoenix.com)
 =======
 
-PHPixie is a lightweight PHP MVC framework designed for 
+PHPhoenix is a lightweight PHP MVC framework designed for 
 rapid development, speed and simplicty. By avoiding as
 much boilerplate code as possible it allows for better 
 understanding of what the framework actually does and
 amazing performance.
 
 You can learn it in under 30 minutes using this tutorial:
-[Learn PHPixie in 30 minutes](http://phpixie.com/tutorials/learn-phpixie-in-30-minutes/).
+[Learn PHPhoenix in 30 minutes](http://phphoenix.com/tutorials/learn-phphoenix-in-30-minutes/).
 
 
 What to expect:
@@ -20,7 +20,7 @@ What to expect:
 
 * Super Fast
 
-  PHPixie was designed with speed in mind to provide lightning fast performance. [source](http://phpixie.com/blog/php-framework-benchmark/)
+  PHPhoenix was designed with speed in mind to provide lightning fast performance. [source](http://phphoenix.com/blog/php-framework-benchmark/)
 
 * Well documented
 
@@ -28,7 +28,7 @@ What to expect:
 
 * Rapid development
 
-  PHPixie gets out of the way and lets you write code the way you want.
+  PHPhoenix gets out of the way and lets you write code the way you want.
 
 * Automagic
 
@@ -36,4 +36,4 @@ What to expect:
 
 * Write your own code
 
-  PHPixie handles the foundation and lets you shape the rest any way you like.
+  PHPhoenix handles the foundation and lets you shape the rest any way you like.

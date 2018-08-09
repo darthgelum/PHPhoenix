@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PHPixie' => array($vendorDir . '/phpixie/core/classes', $vendorDir . '/phpixie/db/classes', $vendorDir . '/phpixie/orm/classes'),
+    'PHPhoenix' => array($vendorDir . '/phphoenix/core/classes', $vendorDir . '/phphoenix/db/classes', $vendorDir . '/phphoenix/orm/classes'),
     '' => array($baseDir . '/classes'),
 );

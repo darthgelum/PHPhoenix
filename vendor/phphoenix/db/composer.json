@@ -1,0 +1,26 @@
+{
+    "name": "phphoenix/db",
+    "description": "PHPhoenix Database library",
+    "keywords": ["database", "mysql", "postgresql", "sqlite"],
+    "homepage": "http://phphoenix.com",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Roman Tsiupa",
+            "email": "draconyster@gmail.com",
+            "homepage": "http://dracony.org"
+        }
+    ],
+    "require": {
+        "phphoenix/core": "2.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"PHPhoenix": "classes/"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    }
+}

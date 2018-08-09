@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PHPixie</title>
+		<title>PHPhoenix</title>
 	</head>
 	<body>
 		<!-- Here is where we include a subtemplate -->

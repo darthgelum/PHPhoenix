@@ -1,15 +1,15 @@
 {
-	"name": "phpixie/project",
+	"name": "phphoenix/project",
 	"type": "project",
-	"description" : "PHPixie skeleton project",
+	"description" : "PHPhoenix skeleton project",
 	"license" : "BSD",
 	"autoload": {
 		"psr-0": {"": "classes/"}
 	},
 	"require": {
-		"phpixie/core": "2.*@dev",
-		"phpixie/db": "2.*@dev",
-		"phpixie/orm": "2.*@dev"
+		"phphoenix/core": "2.*@dev",
+		"phphoenix/db": "2.*@dev",
+		"phphoenix/orm": "2.*@dev"
     	},
 	"extra": {
 		"branch-alias": {
