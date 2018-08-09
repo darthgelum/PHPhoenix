@@ -18,6 +18,7 @@ class Phoenix extends \PHPhoenix\Phoenix {
 	protected function after_bootstrap() {
 		// Whatever code you want to run after bootstrap is done.
 	}
+
 // Exceptions
 // Uncomment to handle exceptions
 
