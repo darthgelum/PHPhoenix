@@ -19,4 +19,9 @@ class Page extends \PHPhoenix\Controller {
 		$this->response->body = $this->view->render();
 	}
 
+	public function AAA()
+    {
+
+    }
+
 }

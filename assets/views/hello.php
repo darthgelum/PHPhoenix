@@ -1,1 +1,1 @@
-{$this->Insert('sub');}
+{$message}

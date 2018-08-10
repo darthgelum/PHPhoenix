@@ -68,7 +68,10 @@ class View
 		$this->name = $name;
 		
 		$file = $this->phoenix->find_file('views', $name, $this->_extension);
-			
+        if(!$file)
+        {
+            $file = $this->phoenix->find_file('views', $name, 'html');
+        }
 		if ($file == false)
 			throw new \Exception("View {$name} not found.");
 			
@@ -115,6 +118,10 @@ class View
     public function Insert($name)
     {
         $file = $this->phoenix->find_file('views', $name, $this->_extension);
+        if(!$file)
+        {
+            $file = $this->phoenix->find_file('views', $name, 'html');
+        }
         if ($file == false)
             throw new \Exception("View {$name} not found.");
         extract($this->helper->get_aliases());

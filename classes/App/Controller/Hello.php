@@ -5,11 +5,9 @@ namespace App\Controller;
 class Hello extends \App\Page {
 
 	public function action_index() {
-		$this->view->subview = 'hello';
-        $this->view->title = "aaa";
-        $subview = rand(0,40);
-		$this->view->message = "{$subview}";
-
+	    $this->view->message = 'Hello from PHPhoenix!';
+        $this->view->title = "Hello from PHPhoenix";
+        $this->view->subview = 'hello';
 	}
 
 }
