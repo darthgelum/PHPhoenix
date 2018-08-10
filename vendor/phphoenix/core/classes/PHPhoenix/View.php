@@ -36,7 +36,7 @@ class View
 	 * Stores all the variables passed to the view
 	 * @var array
 	 */
-	protected $_data = array();
+	public $_data = array();
 
 	/**
 	 * File extension of the templates
@@ -112,6 +112,22 @@ class View
 		throw new \Exception("Value {$key} not set for view {$this->name}");
 	}
 
+    public function Insert($name)
+    {
+        $file = $this->phoenix->find_file('views', $name, $this->_extension);
+        if ($file == false)
+            throw new \Exception("View {$name} not found.");
+        extract($this->helper->get_aliases());
+        extract($this->_data);
+        ob_start();
+        include ($file);
+        $template = ob_get_clean();
+        ob_start();
+        $template = strtr( $template, array('{' => '<?= ','}' => ' ?>'));
+         eval(' ?>'.$template.'<?php ');
+        $rendered = ob_get_clean();
+        return $rendered;
+    }
 	/**
 	 * Renders the template, all dynamically set properties
 	 * will be available inside the view file as variables.
@@ -126,13 +142,20 @@ class View
 	 * @return string Rendered template
 	 * @see \PHPhoenix\View\Helper
 	 */
+
 	public function render()
 	{
 		extract($this->helper->get_aliases());
 		extract($this->_data);
 		ob_start();
-		include($this->path);
-		return ob_get_clean();
+        include($this->path);
+        $template = ob_get_clean();//file_get_contents($this->path);
+        ob_start();
+        $template = strtr( $template, array('{' => "<?=",'}' => "?>"));
+        eval(' ?>'.$template.'<?php ');
+		//include($this->path);
+        $result = ob_get_clean();
+		return $result;
 	}
 	
 }

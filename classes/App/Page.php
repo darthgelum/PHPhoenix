@@ -12,7 +12,7 @@ class Page extends \PHPhoenix\Controller {
 	protected $view;
 
 	public function before() {
-		$this->view = $this->phoenix->view('main');
+		$this->view = ($this->phoenix->view('main'));
 	}
 
 	public function after() {

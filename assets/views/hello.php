@@ -1,1 +1,1 @@
-<h2><?php echo $message;?></h2>
+{$this->Insert('sub');}

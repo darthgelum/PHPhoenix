@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PHPhoenix</title>
+		<title>{$title}</title>
 	</head>
 	<body>
 		<!-- Here is where we include a subtemplate -->
-		<?php include($subview.'.php');?>
+		{$this->Insert($subview);}
 	</body>
 </html>
