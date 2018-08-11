@@ -9,7 +9,7 @@
 	"require": {
 		"phphoenix/core": "2.*@dev",
 		"phphoenix/db": "2.*@dev",
-		"phphoenix/orm": "2.*@dev"
+		"phphoenix/orm": "dev-master"
     	},
 	"extra": {
 		"branch-alias": {

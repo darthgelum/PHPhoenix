@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09f396638c13660b37d0630a473e957a",
+    "content-hash": "7d215eaede25940e4d603d414718bf49",
     "packages": [
         {
             "name": "phphoenix/core",
@@ -107,16 +107,16 @@
         },
         {
             "name": "phphoenix/orm",
-            "version": "2.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PHPhoenix/ORM.git",
-                "reference": "82048e94f41e3fd4483480dc6709937d009ea18e"
+                "url": "https://github.com/darthgelum/PHPhoenix-ORM.git",
+                "reference": "582da1e2e8057225f682b90406e15ae209bc3d5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPhoenix/ORM/zipball/82048e94f41e3fd4483480dc6709937d009ea18e",
-                "reference": "82048e94f41e3fd4483480dc6709937d009ea18e",
+                "url": "https://api.github.com/repos/darthgelum/PHPhoenix-ORM/zipball/582da1e2e8057225f682b90406e15ae209bc3d5b",
+                "reference": "582da1e2e8057225f682b90406e15ae209bc3d5b",
                 "shasum": ""
             },
             "require": {
@@ -129,23 +129,25 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
             "authors": [
                 {
                     "name": "Roman Tsiupa",
                     "email": "draconyster@gmail.com",
                     "homepage": "http://dracony.org"
+                },
+                {
+                    "name": "Dmitrov Philipp",
+                    "email": "dmitrov.philipp@yandex.ru",
+                    "homepage": "http://increw.ru"
                 }
             ],
             "description": "ORM library for PHPhoenix",
-            "homepage": "http://phphoenix.com",
+            "homepage": "https://github.com/darthgelum/PHPhoenix",
             "keywords": [
                 "database",
                 "orm"
             ],
-            "time": "2015-03-04T15:55:04+00:00"
+            "time": "2018-08-11T11:18:59+00:00"
         }
     ],
     "packages-dev": [],
