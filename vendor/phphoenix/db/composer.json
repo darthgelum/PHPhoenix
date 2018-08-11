@@ -2,9 +2,8 @@
     "name": "phphoenix/db",
     "description": "PHPhoenix Database library",
     "keywords": ["database", "mysql", "postgresql", "sqlite"],
-    "homepage": "http://phphoenix.com",
+    "homepage": "https://github.com/darthgelum/PHPhoenix",
     "type": "library",
-    "license": "BSD",
     "authors": [
         {
             "name": "Roman Tsiupa",

@@ -2,9 +2,8 @@
     "name": "phphoenix/orm",
     "description": "ORM library for PHPhoenix",
     "keywords": ["orm", "database"],
-    "homepage": "http://phphoenix.com",
+    "homepage": "https://github.com/darthgelum/PHPhoenix",
     "type": "library",
-    "license": "BSD",
     "authors": [
         {
             "name": "Roman Tsiupa",

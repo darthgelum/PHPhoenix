@@ -5,40 +5,42 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/dracony/PHPhoenix-Core.git",
-            "reference": "52660b51002e53243bda3af6c11151a3232bfd7a"
+            "url": "https://github.com/darthgelum/PHPhoenix-Core.git",
+            "reference": "21866f2eb7d0cc30993cf45a374dad332bf84fcb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/dracony/PHPhoenix-Core/zipball/52660b51002e53243bda3af6c11151a3232bfd7a",
-            "reference": "52660b51002e53243bda3af6c11151a3232bfd7a",
+            "url": "https://api.github.com/repos/darthgelum/PHPhoenix-Core/zipball/21866f2eb7d0cc30993cf45a374dad332bf84fcb",
+            "reference": "21866f2eb7d0cc30993cf45a374dad332bf84fcb",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2015-04-16T11:59:58+00:00",
+        "time": "2018-08-11T11:08:26+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "2.*-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-0": {
                 "PHPhoenix": "classes/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD"
-        ],
         "authors": [
             {
                 "name": "Roman Tsiupa",
                 "email": "draconyster@gmail.com",
                 "homepage": "http://dracony.org"
+            },
+            {
+                "name": "Dmitrov Philipp",
+                "email": "dmitrov.philipp@yandex.ru",
+                "homepage": "http://increw.ru"
             }
         ],
         "description": "PHPhoenix Framework",
@@ -53,44 +55,46 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/dracony/PHPhoenix-DB.git",
-            "reference": "e6b46a322234da7cdf7d7d3645c108018cad9ac6"
+            "url": "https://github.com/darthgelum/PHPhoenix-DB.git",
+            "reference": "81acafad7a772e563e4157aad64a3aacea9a0a35"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/dracony/PHPhoenix-DB/zipball/e6b46a322234da7cdf7d7d3645c108018cad9ac6",
-            "reference": "e6b46a322234da7cdf7d7d3645c108018cad9ac6",
+            "url": "https://api.github.com/repos/darthgelum/PHPhoenix-DB/zipball/81acafad7a772e563e4157aad64a3aacea9a0a35",
+            "reference": "81acafad7a772e563e4157aad64a3aacea9a0a35",
             "shasum": ""
         },
         "require": {
             "phphoenix/core": "2.*@dev"
         },
-        "time": "2014-11-07T09:09:11+00:00",
+        "time": "2018-08-11T11:11:35+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "2.x-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-0": {
                 "PHPhoenix": "classes/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD"
-        ],
         "authors": [
             {
                 "name": "Roman Tsiupa",
                 "email": "draconyster@gmail.com",
                 "homepage": "http://dracony.org"
+            },
+            {
+                "name": "Dmitrov Philipp",
+                "email": "dmitrov.philipp@yandex.ru",
+                "homepage": "http://increw.ru"
             }
         ],
         "description": "PHPhoenix Database library",
-        "homepage": "http://phphoenix.com",
+        "homepage": "https://github.com/darthgelum/PHPhoenix",
         "keywords": [
             "database",
             "mysql",

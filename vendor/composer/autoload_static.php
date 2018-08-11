@@ -9,7 +9,7 @@ class ComposerStaticInit56e70b731f7c3bfda4a6332176a14b75
     public static $prefixesPsr0 = array (
         'P' => 
         array (
-            'PHPhoenix' =>
+            'PHPhoenix' => 
             array (
                 0 => __DIR__ . '/..' . '/phphoenix/core/classes',
                 1 => __DIR__ . '/..' . '/phphoenix/db/classes',
